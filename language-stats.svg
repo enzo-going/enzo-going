@@ -1,0 +1,48 @@
+<svg width="640" height="150" viewBox="0 0 640 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Estatísticas de linguagens de Enzo Going</title>
+  <desc id="desc">Distribuição real de linguagens em repositórios públicos: Jupyter Notebook 74.7%, Python 15.7%, CSS 3.5%, JavaScript 3.0%, HTML 2.3% e Outros 0.8%.</desc>
+  <style>
+    .card { fill: #0d1117; stroke: #30363d; }
+    .title { fill: #c9d1d9; font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .muted { fill: #8b949e; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .label { fill: #c9d1d9; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .value { fill: #8b949e; font: 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+
+  <rect class="card" x="0.5" y="0.5" width="639" height="149" rx="6"/>
+
+  <text class="title" x="24" y="32">Estatísticas</text>
+  <text class="muted" x="24" y="54">Linguagens mais usadas nos repositórios públicos</text>
+
+  <rect x="24" y="72" width="592" height="10" rx="5" fill="#21262d"/>
+  <rect x="24" y="72" width="442" height="10" rx="5" fill="#DA5B0B"/>
+  <rect x="466" y="72" width="93" height="10" fill="#3572A5"/>
+  <rect x="559" y="72" width="21" height="10" fill="#563D7C"/>
+  <rect x="580" y="72" width="18" height="10" fill="#F1E05A"/>
+  <rect x="598" y="72" width="14" height="10" fill="#E34C26"/>
+  <rect x="612" y="72" width="4" height="10" rx="2" fill="#8B949E"/>
+
+  <circle cx="30" cy="105" r="4" fill="#DA5B0B"/>
+  <text class="label" x="42" y="109">Jupyter Notebook</text>
+  <text class="value" x="150" y="109">74.7%</text>
+
+  <circle cx="225" cy="105" r="4" fill="#3572A5"/>
+  <text class="label" x="237" y="109">Python</text>
+  <text class="value" x="284" y="109">15.7%</text>
+
+  <circle cx="355" cy="105" r="4" fill="#563D7C"/>
+  <text class="label" x="367" y="109">CSS</text>
+  <text class="value" x="394" y="109">3.5%</text>
+
+  <circle cx="455" cy="105" r="4" fill="#F1E05A"/>
+  <text class="label" x="467" y="109">JavaScript</text>
+  <text class="value" x="540" y="109">3.0%</text>
+
+  <circle cx="30" cy="128" r="4" fill="#E34C26"/>
+  <text class="label" x="42" y="132">HTML</text>
+  <text class="value" x="83" y="132">2.3%</text>
+
+  <circle cx="135" cy="128" r="4" fill="#8B949E"/>
+  <text class="label" x="147" y="132">Outros</text>
+  <text class="value" x="196" y="132">0.8%</text>
+</svg>
