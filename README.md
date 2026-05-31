@@ -17,11 +17,6 @@
   <a href="https://github.com/enzo-going?tab=repositories">
     <img src="https://img.shields.io/badge/Projetos-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub repositories" />
   </a>
-  <a href="https://github.com/enzo-going">
-    <img src="https://img.shields.io/badge/GitHub-enzo--going-181717?style=flat&logo=github&logoColor=white" alt="GitHub profile" />
-  </a>
-</p>
-
 
 ---
 
