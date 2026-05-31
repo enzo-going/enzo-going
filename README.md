@@ -33,24 +33,11 @@ Currently building practical projects with Python, C, data analysis and software
 
 ---
 
-## GitHub Activity
+## GitHub Stats
 
 <p align="left">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=enzo-going&theme=github_dark" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=enzo-going&show_icons=true&theme=github_dark&hide_border=true&hide_rank=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=enzo-going&layout=compact&theme=github_dark&hide_border=true&hide=jupyter%20notebook" />
 </p>
 
-<p align="left">
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=enzo-going&theme=github_dark" />
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=enzo-going&theme=github_dark&utcOffset=-3" />
-</p>
-
----
-
-## Language Statistics
-
-<p align="left">
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=enzo-going&theme=github_dark&exclude=jupyter%20Notebook" />
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=enzo-going&theme=github_dark&exclude=jupyter%20Notebook" />
-</p>
-
-<sub>Jupyter Notebook is excluded from the language cards to keep the statistics focused on programming languages and implementation work.</sub>
+<sub>Jupyter Notebook is hidden from the language card to keep the chart focused on programming languages and implementation work.</sub>
