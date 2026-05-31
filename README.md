@@ -43,11 +43,11 @@ Atualmente, meu foco principal é aplicar Python e ciência de dados em problema
 
 ![Estatísticas de linguagens](./language-stats.svg)
 
-### Projetos
+## Projetos
 
-| Projeto | O que estou praticando |
-| --- | --- |
-| [`international-conflict-risk-ml`](https://github.com/enzo-going/international-conflict-risk-ml) | Machine Learning aplicado a risco de conflito internacional, com unidade country-year, target para o ano seguinte e split temporal |
-| [`analise-cesta-basica-brasil`](https://github.com/enzo-going/analise-cesta-basica-brasil) | Análise exploratória sobre cesta básica, horas de trabalho necessárias e evolução histórica no Brasil |
-| [`battle-simulator-python-poo`](https://github.com/enzo-going/battle-simulator-python-poo) | Programação Orientada a Objetos em Python, organização de classes e lógica de simulação |
-| [`campsPdfManager-v2`](https://github.com/enzo-going/campsPdfManager-v2) | Automação e manipulação de arquivos PDF com foco em uso prático |
+| Projeto                                                                                        | O que estou praticando                                                                                                                                                                       |
+| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [international-conflict-risk-ml](https://github.com/enzo-going/international-conflict-risk-ml) | Machine Learning aplicado à análise preditiva de conflitos internacionais, com unidade country-year, target temporal, validação por baseline e integração progressiva de dados heterogêneos. |
+| [tactical-autobattler-python](https://github.com/enzo-going/tactical-autobattler-python)       | Simulador tático em Python com Programação Orientada a Objetos, estratégias automatizadas, torneios, balanceamento, testes e exportação de relatórios em JSON.                               |
+| [campsPdfManager-v2](https://github.com/enzo-going/campsPdfManager-v2)                         | Sistema prático para manipulação e digitalização de documentos PDF, com foco em automação, organização de arquivos e uso real em ambiente de trabalho.                                       |
+| [analise-cesta-basica-brasil](https://github.com/enzo-going/analise-cesta-basica-brasil)       | Análise exploratória sobre cesta básica, poder de compra e evolução histórica no Brasil, usando Python, dados públicos e visualização.                                                       |
