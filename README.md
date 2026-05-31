@@ -44,6 +44,5 @@ My goal is to build projects that combine academic learning with real technical 
 ## GitHub Stats
 
 <p align="left">
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=enzo-going&theme=github_dark" />
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=enzo-going&theme=github_dark" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=enzo-going&show_icons=true&theme=github_dark&hide_border=true&hide_rank=true" />
 </p>
