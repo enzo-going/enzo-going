@@ -1,0 +1,38 @@
+# Hi, I'm Enzo 👋
+
+Computer Science student focused on software development, data analysis, machine learning and cybersecurity.
+
+Currently building practical projects with Python, C, data analysis and software engineering fundamentals.
+
+---
+
+## About me
+
+* Computer Science student at Universidade Católica de Santos
+* IT intern at CAMPS Santos
+* Interested in Machine Learning, cybersecurity, backend development and data-driven systems
+* Building academic and personal projects to improve my technical foundation
+
+---
+
+## Tech Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,c,html,css,js,git,github,vscode,mysql,linux" />
+</p>
+
+---
+
+## Current Focus
+
+* Machine Learning applied to real-world datasets
+* Python for data analysis and automation
+* Software engineering practices
+* Cybersecurity and network fundamentals
+* Clean documentation and reproducible projects
+
+---
+
+## Main Direction
+
+I am building my technical foundation through academic and personal projects, with emphasis on practical software development, data-driven systems and security-oriented thinking.
