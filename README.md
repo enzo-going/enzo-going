@@ -5,8 +5,8 @@
 </p>
 
 <p align="left">
-  <a href="mailto:enzolgoing@gmail.com">
-    <img src="https://img.shields.io/badge/Email-enzolgoing%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:enzogoingpro@gmail.com">
+    <img src="https://img.shields.io/badge/Email-enzogoingpro%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://portfolio-enzo-going.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-ff9100?style=flat&logo=vercel&logoColor=white" alt="Portfolio" />
@@ -17,6 +17,11 @@
   <a href="https://github.com/enzo-going?tab=repositories">
     <img src="https://img.shields.io/badge/Projetos-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub repositories" />
   </a>
+  <a href="https://github.com/enzo-going">
+    <img src="https://img.shields.io/badge/GitHub-enzo--going-181717?style=flat&logo=github&logoColor=white" alt="GitHub profile" />
+  </a>
+</p>
+
 
 ---
 
