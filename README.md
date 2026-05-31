@@ -33,6 +33,17 @@ Currently building practical projects with Python, C, data analysis and software
 
 ---
 
-## Main Direction
+## Technical Direction
 
-I am building my technical foundation through academic and personal projects, with emphasis on practical software development, data-driven systems and security-oriented thinking.
+I am developing my foundation through practical software projects, with emphasis on clean code, data-driven systems, reproducible workflows and security-oriented thinking.
+
+My goal is to build projects that combine academic learning with real technical value.
+
+---
+
+## GitHub Stats
+
+<p align="left">
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=enzo-going&theme=github_dark" />
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=enzo-going&theme=github_dark" />
+</p>
