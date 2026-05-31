@@ -33,11 +33,20 @@ Currently building practical projects with Python, C, data analysis and software
 
 ---
 
-## GitHub Stats
+## GitHub Activity
 
 <p align="left">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=enzo-going&show_icons=true&theme=github_dark&hide_border=true&hide_rank=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=enzo-going&layout=compact&theme=github_dark&hide_border=true&hide=jupyter%20notebook" />
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=enzo-going&theme=github_dark" />
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=enzo-going&theme=github_dark&utcOffset=-3" />
 </p>
 
-<sub>Jupyter Notebook is hidden from the language card to keep the chart focused on programming languages and implementation work.</sub>
+---
+
+## Language Overview
+
+<p align="left">
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=enzo-going&theme=github_dark" />
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=enzo-going&theme=github_dark" />
+</p>
+
+<sub>Jupyter Notebook appears strongly because my main Machine Learning projects use notebooks for analysis, experimentation and documentation.</sub>
