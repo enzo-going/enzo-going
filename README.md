@@ -35,9 +35,4 @@ Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação
 
 ### Estatísticas
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=enzo-going&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=enzo-going&layout=compact&theme=default&hide_border=true&langs_count=6)
-
-</div>
+[![Estatísticas de linguagens](https://github.com/enzo-going/enzo-going/raw/main/language-stats.svg)](https://github.com/enzo-going/enzo-going/blob/main/language-stats.svg)
