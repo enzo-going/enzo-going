@@ -35,4 +35,4 @@ Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação
 
 ### Estatísticas
 
-[![Estatísticas de linguagens](https://github.com/enzo-going/enzo-going/raw/main/language-stats.svg)](https://github.com/enzo-going/enzo-going/blob/main/language-stats.svg)
+[![Métricas do perfil](https://github.com/enzo-going/enzo-going/raw/main/metrics.svg)](https://github.com/enzo-going/enzo-going/blob/main/metrics.svg)
