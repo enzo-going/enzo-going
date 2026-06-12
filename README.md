@@ -12,9 +12,9 @@ Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação
 
 ### Foco atual
 
-- **campsPdfManager-v2** — sistema web com Flask, JWT e conformidade com Decreto 10.278/2020 (em uso ativo no estágio)
+- **ti-chamados-whatsapp** — núcleo de um helpdesk de TI que transforma mensagens em chamados: triagem automática por palavras-chave, rodízio entre atendentes, idempotência, persistência SQLite e painel local somente leitura. Python puro, zero dependências.
 - Aprofundando SQL, SQLAlchemy e arquitetura de APIs REST
-- Explorando integrações com bots e automações via WhatsApp Business API
+- Explorando a integração com a WhatsApp Cloud API — borda local (webhook, validação de assinatura HMAC, transporte plugável) testável sem rede, ainda sem conexão com produção
 
 ### Tecnologias
 
@@ -26,6 +26,7 @@ Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação
 
 | Projeto | Descrição | Stack |
 |---|---|---|
+| [ti-chamados-whatsapp](https://github.com/enzo-going/ti-chamados-whatsapp) | Núcleo de um helpdesk de TI que transforma mensagens em chamados: triagem automática, rodízio entre atendentes, idempotência, persistência SQLite e painel local somente leitura. Borda da WhatsApp Cloud API testável sem rede. | Python · SQLite · HTTP · unittest |
 | [international-conflict-risk-ml](https://github.com/enzo-going/international-conflict-risk-ml) | Pipeline de ML para previsão de risco de conflito em 194 países. F1-score 0.87, validação temporal, dashboard público via GitHub Pages. | Python · scikit-learn · SQL · Pandas |
 | [campsPdfManager-v2](https://github.com/enzo-going/campsPdfManager-v2) | API REST com Flask, autenticação JWT, RBAC, gestão de documentos PDF com conformidade ao Decreto 10.278/2020. | Python · Flask · SQLAlchemy · JWT |
 | [tactical-autobattler-python](https://github.com/enzo-going/tactical-autobattler-python) | Simulador tático OOP com 5 unidades, 4 efeitos de combate, 5 estratégias de bot e modo torneio com cobertura unittest. | Python · OOP · unittest |
