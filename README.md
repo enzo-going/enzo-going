@@ -6,7 +6,7 @@ Estudante de Ciência da Computação · Backend Python · Dados · ML Aplicado
 
 ---
 
-Sou estudante de Ciência da Computação na Universidade Católica de Santos (4º/8º semestres) e construo projetos práticos em backend, análise de dados e Machine Learning. Gosto de código bem organizado, documentação clara e projetos que simulam ambientes de produção.
+Sou estudante de Ciência da Computação na Universidade Católica de Santos (5º/8º semestres) e construo projetos práticos em backend, análise de dados e Machine Learning. Gosto de código bem organizado, documentação clara e projetos que simulam ambientes de produção.
 
 Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação no dia a dia.
 
