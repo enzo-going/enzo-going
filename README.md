@@ -30,9 +30,11 @@ Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação
 | [print-monitor-local](https://github.com/enzo-going/print-monitor-local) | Monitor de impressoras de rede: coleta de contadores via SNMP, histórico em SQLite, cálculo de volume por período, dashboard com filtros e ranking, descoberta na sub-rede e executável Windows. | Python · SNMP · SQLite · Flask · PyInstaller |
 | [ti-chamados-whatsapp](https://github.com/enzo-going/ti-chamados-whatsapp) | Núcleo de um helpdesk de TI que transforma mensagens em chamados: triagem automática, rodízio entre atendentes, idempotência, persistência SQLite e painel local somente leitura. Borda da WhatsApp Cloud API testável sem rede. | Python · SQLite · HTTP · unittest |
 | [international-conflict-risk-ml](https://github.com/enzo-going/international-conflict-risk-ml) | Pipeline de ML para previsão de risco de conflito em 194 países. F1-score 0.87, validação temporal, dashboard público via GitHub Pages. | Python · scikit-learn · SQL · Pandas |
-| [campsPdfManager-v2](https://github.com/enzo-going/campsPdfManager-v2) | API REST com Flask, autenticação JWT, RBAC, gestão de documentos PDF com conformidade ao Decreto 10.278/2020. | Python · Flask · SQLAlchemy · JWT |
+| [pdf-document-manager](https://github.com/enzo-going/pdf-document-manager) | Gerenciador web de documentos PDF: autenticação JWT com papéis, upload e metadados, registro de auditoria e painel de métricas. Suíte de testes da API rodando em CI. | Python · Flask · SQLAlchemy · JWT · pytest |
+| [windows-deploy-kit](https://github.com/enzo-going/windows-deploy-kit) | Pendrive que prepara e restaura máquinas Windows sem acompanhamento: etapas idempotentes, modo simulação e entrada no domínio sem senha em disco. | PowerShell · Windows · Active Directory |
 | [tactical-autobattler-python](https://github.com/enzo-going/tactical-autobattler-python) | Simulador tático OOP com 5 unidades, 4 efeitos de combate, 5 estratégias de bot e modo torneio com cobertura unittest. | Python · OOP · unittest |
 | [analise-cesta-basica-brasil](https://github.com/enzo-going/analise-cesta-basica-brasil) | Análise exploratória da evolução da cesta básica em capitais do Sudeste com dados DIEESE. Dashboard via GitHub Pages. | Python · Pandas · Plotly · Jupyter |
+| [network-folder-search](https://github.com/enzo-going/network-folder-search) | Busca em pastas e compartilhamentos de rede por índice local, somente leitura: cataloga uma vez e responde em segundos. | PowerShell · Windows · CSV |
 
 ---
 
