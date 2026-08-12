@@ -12,6 +12,7 @@ Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação
 
 ### Foco atual
 
+- **netpulse** — monitor de ativos de rede que agrupa falhas simultâneas da mesma sub-rede em um único incidente, em vez de disparar um alerta por equipamento. Núcleo de coleta e API FastAPI prontos e testados; dashboard e análise de causa assistida por IA são as próximas etapas.
 - **print-monitor-local** — monitor de impressoras de rede: leitura de contadores via SNMP (Python puro), histórico em SQLite, cálculo de volume por período pela diferença entre leituras (com tratamento de reset), dashboard local com filtros e ranking, importação por CSV e descoberta segura na sub-rede. Empacotado como executável Windows ([release](https://github.com/enzo-going/print-monitor-local/releases)).
 - **ti-chamados-whatsapp** — núcleo de um helpdesk de TI que transforma mensagens em chamados: triagem automática por palavras-chave, rodízio entre atendentes, idempotência, persistência SQLite e painel local somente leitura. Python puro, zero dependências.
 - Aprofundando SQL, SQLAlchemy e arquitetura de APIs REST
@@ -27,6 +28,7 @@ Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação
 
 | Projeto | Descrição | Stack |
 |---|---|---|
+| [netpulse](https://github.com/enzo-going/netpulse) | Monitoramento de ativos de rede com correlação de falhas: agrupa quedas simultâneas da mesma sub-rede em um incidente só, com API FastAPI e modo demo que roda sem tocar em rede real. Em construção. | Python · FastAPI · SQLite · pytest |
 | [print-monitor-local](https://github.com/enzo-going/print-monitor-local) | Monitor de impressoras de rede: coleta de contadores via SNMP, histórico em SQLite, cálculo de volume por período, dashboard com filtros e ranking, descoberta na sub-rede e executável Windows. | Python · SNMP · SQLite · Flask · PyInstaller |
 | [ti-chamados-whatsapp](https://github.com/enzo-going/ti-chamados-whatsapp) | Núcleo de um helpdesk de TI que transforma mensagens em chamados: triagem automática, rodízio entre atendentes, idempotência, persistência SQLite e painel local somente leitura. Borda da WhatsApp Cloud API testável sem rede. | Python · SQLite · HTTP · unittest |
 | [international-conflict-risk-ml](https://github.com/enzo-going/international-conflict-risk-ml) | Pipeline de ML para previsão de risco de conflito em 194 países. F1-score 0.87, validação temporal, dashboard público via GitHub Pages. | Python · scikit-learn · SQL · Pandas |
