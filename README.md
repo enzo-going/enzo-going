@@ -2,13 +2,26 @@
 
 Estudante de Ciência da Computação · Backend Python · Dados · ML Aplicado
 
-[![Email](https://img.shields.io/badge/Email-enzogoingpro%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:enzogoingpro@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-ff9100?style=flat&logo=vercel&logoColor=white)](https://portfolio-enzo-going.vercel.app/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-enzo--going-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enzo-going-4a1917306/) [![GitHub](https://img.shields.io/badge/Projetos-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/enzo-going?tab=repositories)
+[![Email](https://img.shields.io/badge/Email-enzogoingpro%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:enzogoingpro@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-ff9100?style=flat&logo=vercel&logoColor=white)](https://portfolio-enzo-going.vercel.app/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-enzo--going-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enzo-going-4a1917306/) [![GitHub](https://img.shields.io/badge/Projetos-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/enzo-going?tab=repositories) [![PCE - Clinica de Psicologia](https://img.shields.io/badge/Org-PCE%20Cl%C3%ADnica%20de%20Psicologia-6f42c1?style=flat&logo=github&logoColor=white)](https://github.com/pce-clinica-psicologia)
 
 ---
 
 Sou estudante de Ciência da Computação na Universidade Católica de Santos (5º/8º semestres) e construo projetos práticos em backend, análise de dados e Machine Learning. Gosto de código bem organizado, documentação clara e projetos que simulam ambientes de produção.
 
 Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação no dia a dia.
+
+### Organização e projeto em equipe
+
+<a href="https://github.com/pce-clinica-psicologia"><img src="https://github.com/pce-clinica-psicologia.png" width="76" alt="PCE — Clínica de Psicologia"></a>
+
+Integro a organização **[PCE — Clínica de Psicologia](https://github.com/pce-clinica-psicologia)**, onde a equipe desenvolve o **[clinica-app](https://github.com/pce-clinica-psicologia/clinica-app)** (*psicomanager*) — sistema de gestão de clínica construído por squads que trabalham em paralelo no mesmo repositório.
+
+| | |
+|---|---|
+| **Arquitetura** | Monorepo `client` + `server`, com ambiente idêntico para toda a equipe via Docker Compose (React na 3000 · Spring Boot na 8080 · MySQL) |
+| **Testes** | JUnit nas regras de negócio, testes de componente no React e E2E com Cypress validando client + server + banco de ponta a ponta |
+| **CI/CD** | GitHub Actions com *path filtering*: mudança só em `/client` dispara apenas a esteira do React, sem recompilar a API Java à toa |
+| **Stack** | Java · Spring Boot · React · TypeScript · MySQL · Docker · Cypress · GitHub Actions |
 
 ### Foco atual
 
@@ -31,6 +44,7 @@ Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação
 | [netpulse](https://github.com/enzo-going/netpulse) | Monitoramento de ativos de rede com correlação de falhas: agrupa quedas simultâneas da mesma sub-rede em um incidente só, com API FastAPI e modo demo que roda sem tocar em rede real. Em construção. | Python · FastAPI · SQLite · pytest |
 | [print-monitor-local](https://github.com/enzo-going/print-monitor-local) | Monitor de impressoras de rede: coleta de contadores via SNMP, histórico em SQLite, cálculo de volume por período, dashboard com filtros e ranking, descoberta na sub-rede e executável Windows. | Python · SNMP · SQLite · Flask · PyInstaller |
 | [ti-chamados-whatsapp](https://github.com/enzo-going/ti-chamados-whatsapp) | Helpdesk de TI que transforma mensagens em chamados: triagem automática, rodízio entre atendentes, idempotência, persistência SQLite e painel local somente leitura. App Windows empacotado e borda da WhatsApp Cloud API testável sem rede. | Python · SQLite · HTTP · unittest · PyInstaller |
+| [clinica-app](https://github.com/pce-clinica-psicologia/clinica-app) — *equipe [@pce-clinica-psicologia](https://github.com/pce-clinica-psicologia)* | Sistema de gestão para clínica de psicologia em monorepo: client React/TypeScript, server Java Spring Boot e MySQL, com Docker Compose para ambiente único, E2E em Cypress e CI por path filtering. | Java · Spring Boot · React · TypeScript · MySQL · Docker |
 | [international-conflict-risk-ml](https://github.com/enzo-going/international-conflict-risk-ml) | Pipeline de ML para previsão de risco de conflito em 194 países. F1-score 0.87, validação temporal, dashboard público via GitHub Pages. | Python · scikit-learn · SQL · Pandas |
 | [pdf-document-manager](https://github.com/enzo-going/pdf-document-manager) | Gerenciador web de documentos PDF: autenticação JWT com papéis, upload e metadados, registro de auditoria e painel de métricas. Suíte de testes da API rodando em CI. | Python · Flask · SQLAlchemy · JWT · pytest |
 | [windows-deploy-kit](https://github.com/enzo-going/windows-deploy-kit) | Pendrive que prepara e restaura máquinas Windows sem acompanhamento: etapas idempotentes, modo simulação e entrada no domínio sem senha em disco. | PowerShell · Windows · Active Directory |
