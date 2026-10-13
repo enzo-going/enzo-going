@@ -6,7 +6,7 @@ Estudante de Ciência da Computação · Backend Python · Dados · ML Aplicado
 
 ---
 
-Sou estudante de Ciência da Computação na Universidade Católica de Santos (5º/8º semestres) e construo projetos práticos em backend, análise de dados e Machine Learning. Gosto de código bem organizado, documentação clara e projetos que simulam ambientes de produção.
+Sou estudante de Ciência da Computação na Universidade Católica de Santos (5º de 8 semestres) e construo projetos práticos em backend, análise de dados e Machine Learning. Gosto de código bem organizado, documentação clara e projetos que simulam ambientes de produção.
 
 Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação no dia a dia.
 
@@ -25,7 +25,8 @@ Integro a organização **[PCE — Clínica de Psicologia](https://github.com/pc
 
 ### Foco atual
 
-- **netpulse** — monitor de ativos de rede que agrupa falhas simultâneas da mesma sub-rede em um único incidente, em vez de disparar um alerta por equipamento. Núcleo de coleta e API FastAPI prontos e testados; dashboard e análise de causa assistida por IA são as próximas etapas.
+- **corptv** — plataforma de TV corporativa em produção no estágio: painel com playlists e agendamento por ambiente, player que se atualiza sozinho com cache offline, e Raspberry Pi como player atrás das TVs. Auditoria com exportação CSV, monitor de tráfego e watchdog que confirma a falha antes de reiniciar.
+- **netpulse** — monitor de ativos de rede que agrupa falhas simultâneas da mesma sub-rede em um único incidente, em vez de disparar um alerta por equipamento. Marco v0.1 completo: coleta, API FastAPI, dashboard React e motor de incidentes testados, com análise de causa por IA sob demanda.
 - **print-monitor-local** — monitor de impressoras de rede: leitura de contadores via SNMP (Python puro), histórico em SQLite, cálculo de volume por período pela diferença entre leituras (com tratamento de reset), dashboard local com filtros e ranking, importação por CSV e descoberta segura na sub-rede. Empacotado como executável Windows ([release](https://github.com/enzo-going/print-monitor-local/releases)).
 - **ti-chamados-whatsapp** — helpdesk de TI que transforma mensagens em chamados: triagem automática por palavras-chave, rodízio entre atendentes, idempotência, persistência SQLite e painel local somente leitura. Agora com app Windows empacotado (PyInstaller): atalho na área de trabalho, sem instalar Python. Núcleo em Python puro, zero dependências de runtime.
 - Aprofundando SQL, SQLAlchemy e arquitetura de APIs REST
@@ -41,13 +42,14 @@ Integro a organização **[PCE — Clínica de Psicologia](https://github.com/pc
 
 | Projeto | Descrição | Stack |
 |---|---|---|
-| [netpulse](https://github.com/enzo-going/netpulse) | Monitoramento de ativos de rede com correlação de falhas: agrupa quedas simultâneas da mesma sub-rede em um incidente só, com API FastAPI e modo demo que roda sem tocar em rede real. Em construção. | Python · FastAPI · SQLite · pytest |
+| [corptv](https://github.com/enzo-going/corptv) | Plataforma de TV corporativa em produção: playlists e agendamento por ambiente (inclusive virando a meia-noite), player com cache offline e atualização sem reinício, uploads validados pela assinatura do arquivo e auditoria com verificação de integridade. | Node.js · Express · NeDB · Raspberry Pi |
+| [netpulse](https://github.com/enzo-going/netpulse) | Monitoramento de ativos de rede com correlação de falhas: agrupa quedas simultâneas da mesma sub-rede em um incidente só, com dashboard React, análise de causa por IA sob demanda e demo completa em um `docker compose up`. | Python · FastAPI · React · SQLite · Docker |
 | [print-monitor-local](https://github.com/enzo-going/print-monitor-local) | Monitor de impressoras de rede: coleta de contadores via SNMP, histórico em SQLite, cálculo de volume por período, dashboard com filtros e ranking, descoberta na sub-rede e executável Windows. | Python · SNMP · SQLite · Flask · PyInstaller |
 | [ti-chamados-whatsapp](https://github.com/enzo-going/ti-chamados-whatsapp) | Helpdesk de TI que transforma mensagens em chamados: triagem automática, rodízio entre atendentes, idempotência, persistência SQLite e painel local somente leitura. App Windows empacotado e borda da WhatsApp Cloud API testável sem rede. | Python · SQLite · HTTP · unittest · PyInstaller |
 | [clinica-app](https://github.com/pce-clinica-psicologia/clinica-app) — *equipe [@pce-clinica-psicologia](https://github.com/pce-clinica-psicologia)* | Sistema de gestão para clínica de psicologia em monorepo: client React/TypeScript, server Java Spring Boot e MySQL, com Docker Compose para ambiente único, E2E em Cypress e CI por path filtering. | Java · Spring Boot · React · TypeScript · MySQL · Docker |
 | [international-conflict-risk-ml](https://github.com/enzo-going/international-conflict-risk-ml) | Pipeline de ML para previsão de risco de conflito em 194 países. F1-score 0.87, validação temporal, dashboard público via GitHub Pages. | Python · scikit-learn · SQL · Pandas |
 | [pdf-document-manager](https://github.com/enzo-going/pdf-document-manager) | Gerenciador web de documentos PDF: autenticação JWT com papéis, upload e metadados, registro de auditoria e painel de métricas. Suíte de testes da API rodando em CI. | Python · Flask · SQLAlchemy · JWT · pytest |
-| [windows-deploy-kit](https://github.com/enzo-going/windows-deploy-kit) | Pendrive que prepara e restaura máquinas Windows sem acompanhamento: etapas idempotentes, modo simulação e entrada no domínio sem senha em disco. | PowerShell · Windows · Active Directory |
+| windows-deploy-kit *(código privado)* | Pendrive que prepara e restaura máquinas Windows sem acompanhamento: etapas idempotentes, modo simulação e entrada no domínio sem senha em disco. | PowerShell · Windows · Active Directory |
 | [tactical-autobattler-python](https://github.com/enzo-going/tactical-autobattler-python) | Jogo tático por turnos jogável no navegador: o mesmo pacote Python roda via Pyodide, sem servidor. Uma ordem por unidade e alvo confirmado, com um laboratório de simulação ao lado — estratégias de bot, torneios e relatórios JSON. | Python · OOP · Pyodide · unittest |
 | [analise-cesta-basica-brasil](https://github.com/enzo-going/analise-cesta-basica-brasil) | Análise exploratória da evolução da cesta básica em capitais do Sudeste com dados DIEESE. Dashboard via GitHub Pages. | Python · Pandas · Plotly · Jupyter |
 | [network-folder-search](https://github.com/enzo-going/network-folder-search) | Busca em pastas e compartilhamentos de rede por índice local, somente leitura: cataloga uma vez e responde em segundos. | PowerShell · Windows · CSV |
