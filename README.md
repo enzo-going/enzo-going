@@ -1,12 +1,12 @@
 ## Olá, me chamo Enzo Liutkus Going 👋
 
-Estudante de Ciência da Computação · Backend Python · Dados · ML Aplicado
+Estudante de Ciência da Computação · Backend em Python e Node.js · Automação e monitoramento de infraestrutura
 
 [![Email](https://img.shields.io/badge/Email-enzogoingpro%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:enzogoingpro@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-ff9100?style=flat&logo=vercel&logoColor=white)](https://portfolio-enzo-going.vercel.app/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-enzo--going-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enzo-going-4a1917306/) [![GitHub](https://img.shields.io/badge/Projetos-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/enzo-going?tab=repositories) [![PCE - Clinica de Psicologia](https://img.shields.io/badge/Org-PCE%20Cl%C3%ADnica%20de%20Psicologia-6f42c1?style=flat&logo=github&logoColor=white)](https://github.com/pce-clinica-psicologia)
 
 ---
 
-Sou estudante de Ciência da Computação na Universidade Católica de Santos (5º de 8 semestres) e construo projetos práticos em backend, análise de dados e Machine Learning. Gosto de código bem organizado, documentação clara e projetos que simulam ambientes de produção.
+Sou estudante de Ciência da Computação na Universidade Católica de Santos (5º de 8 semestres) e construo sistemas de backend e automação que rodam de verdade: uma plataforma de TV corporativa em produção, monitores de rede e de impressoras e um helpdesk empacotado para Windows. Também desenvolvo projetos de análise de dados e Machine Learning. Gosto de código bem organizado, testes automatizados e documentação clara.
 
 Atualmente em estágio na área de TI, onde aplico desenvolvimento e automação no dia a dia.
 
@@ -34,7 +34,13 @@ Integro a organização **[PCE — Clínica de Psicologia](https://github.com/pc
 
 ### Tecnologias
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/) [![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/) [![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org/) [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/) [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+**Backend** &nbsp; [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/) [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) [![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/) [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/) [![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://openjdk.org/) [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+
+**Dados** &nbsp; [![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org/) [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/) [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+
+**Frontend** &nbsp; [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://react.dev/) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+**Infra e automação** &nbsp; [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/) [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)](https://www.kernel.org/) [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)](https://www.raspberrypi.com/) [![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTQgNWw3IDctNyA3TTEyIDE5aDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://learn.microsoft.com/powershell/) [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)](https://github.com/features/actions) [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
 
 ---
 
