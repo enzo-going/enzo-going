@@ -19,9 +19,9 @@ Integro a organização **[PCE — Clínica de Psicologia](https://github.com/pc
 | | |
 |---|---|
 | **Arquitetura** | Monorepo `client` + `server`, com ambiente idêntico para toda a equipe via Docker Compose (React na 3000 · Spring Boot na 8080 · MySQL) |
-| **Testes** | JUnit nas regras de negócio, testes de componente no React e E2E com Cypress validando client + server + banco de ponta a ponta |
-| **CI/CD** | GitHub Actions com *path filtering*: mudança só em `/client` dispara apenas a esteira do React, sem recompilar a API Java à toa |
-| **Stack** | Java · Spring Boot · React · TypeScript · MySQL · Docker · Cypress · GitHub Actions |
+| **Testes** | JUnit nas regras de negócio e E2E com Playwright validando client + server + banco de ponta a ponta |
+| **CI/CD** | GitHub Actions em três esteiras: build, JUnit e cobertura JaCoCo na API; lint e typecheck no React; E2E com Playwright contra o Compose inteiro |
+| **Stack** | Java · Spring Boot · React · TypeScript · MySQL · Docker · Playwright · GitHub Actions |
 
 ### Foco atual
 
@@ -52,7 +52,7 @@ Integro a organização **[PCE — Clínica de Psicologia](https://github.com/pc
 | [netpulse](https://github.com/enzo-going/netpulse) | Monitoramento de ativos de rede com correlação de falhas: agrupa quedas simultâneas da mesma sub-rede em um incidente só, com dashboard React, análise de causa por IA sob demanda e demo completa em um `docker compose up`. | Python · FastAPI · React · SQLite · Docker |
 | [print-monitor-local](https://github.com/enzo-going/print-monitor-local) | Monitor de impressoras de rede: coleta de contadores via SNMP, histórico em SQLite, cálculo de volume por período, dashboard com filtros e ranking, descoberta na sub-rede e executável Windows. | Python · SNMP · SQLite · Flask · PyInstaller |
 | [ti-chamados-whatsapp](https://github.com/enzo-going/ti-chamados-whatsapp) | Helpdesk de TI que transforma mensagens em chamados: triagem automática, rodízio entre atendentes, idempotência, persistência SQLite e painel local somente leitura. App Windows empacotado e borda da WhatsApp Cloud API testável sem rede. | Python · SQLite · HTTP · unittest · PyInstaller |
-| [clinica-app](https://github.com/pce-clinica-psicologia/clinica-app) — *equipe [@pce-clinica-psicologia](https://github.com/pce-clinica-psicologia)* | Sistema de gestão para clínica de psicologia em monorepo: client React/TypeScript, server Java Spring Boot e MySQL, com Docker Compose para ambiente único, E2E em Cypress e CI por path filtering. | Java · Spring Boot · React · TypeScript · MySQL · Docker |
+| [clinica-app](https://github.com/pce-clinica-psicologia/clinica-app) — *equipe [@pce-clinica-psicologia](https://github.com/pce-clinica-psicologia)* | Sistema de gestão para clínica de psicologia em monorepo: client React/TypeScript, server Java Spring Boot e MySQL, com Docker Compose para ambiente único, E2E em Playwright e CI com cobertura JaCoCo. | Java · Spring Boot · React · TypeScript · MySQL · Docker |
 | [international-conflict-risk-ml](https://github.com/enzo-going/international-conflict-risk-ml) | Pipeline de ML para previsão de risco de conflito em 194 países. F1-score 0.87, validação temporal, dashboard público via GitHub Pages. | Python · scikit-learn · SQL · Pandas |
 | [pdf-document-manager](https://github.com/enzo-going/pdf-document-manager) | Gerenciador web de documentos PDF: autenticação JWT com papéis, upload e metadados, registro de auditoria e painel de métricas. Suíte de testes da API rodando em CI. | Python · Flask · SQLAlchemy · JWT · pytest |
 | windows-deploy-kit *(código privado)* | Pendrive que prepara e restaura máquinas Windows sem acompanhamento: etapas idempotentes, modo simulação e entrada no domínio sem senha em disco. | PowerShell · Windows · Active Directory |
